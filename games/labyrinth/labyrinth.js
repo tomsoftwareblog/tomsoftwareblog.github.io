@@ -78,7 +78,8 @@ function keydown(event, gameCtx) {
 // ----------------------------------------------------------------
 
 function genLevel(grid, trapdoors) {
-    var loc = {x:0, y:0};
+    var co = Math.floor(GRID_SIZE/2);
+    var loc = {x:co, y:co};
     
     bt(loc);
     
